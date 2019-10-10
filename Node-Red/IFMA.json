@@ -1,25 +1,3 @@
-# IFMA
- 
-### IFMA (Images from Mail Attachments) is a Node-Red Flow that alows you to get images from mail attachments from cheap IP cameras and make those usable for Home Automation or anything else.
-<img src="images/IFMA-flow.png?raw=true">
-
-## Usecases
-1) Forward all your cameras default notifications to your Telegram Bot.
-2) Save all the images produced from your camera motion sensor into a directory without the need to have an SD-card fisically mounted on the camera itself.
-3) Create a "Last Motion" tab in your Home automation software like Homeassistant.
-4) Create a .GIF from a bounch of images 
-5) Anything else you can imagine.
-
-## Setup - How to get the Images
-### Your camera should allows you tu send a image via mail attachment when motion is detected.
-### You have to enable and configure this option.
-### Make sure to have Node-Red installed.
-### Make sure to have the "Mail" node (you should have it by default under the Social tab)
-<img src="images/mail-node.png?raw=true">
-
-### Copy or import the flow configuration from <a href="Node-Red/IFMA.json">here</a>:
-
-```bash
 [
     {
         "id": "b96a06b7.5821c8",
@@ -171,11 +149,3 @@
         "wires": []
     }
 ]
-```
-
-### Configure the Mail input node
-<img src="images/config-example.png?raw=true">
-
-### Configure your directory in the "Change" Node and in the "File Output" Node  
-
-
