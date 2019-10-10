@@ -1,6 +1,6 @@
 # IFMA
  
-### IFMA (Images from Mail Attachments) is a Node-Red Flow that alows you to get images from mail attachments from cheap IP cameras and make those usable for Home Automation or anything else.
+### IFMA (Images from Mail Attachments) is a Node-Red Flow that allows you to get images from mail attachments from cheap IP cameras and make those usable for Home Automation or anything else.
 <img src="images/IFMA-flow.png?raw=true">
 
 ## Usecases
